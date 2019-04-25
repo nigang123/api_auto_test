@@ -1,15 +1,15 @@
-import allure
-@allure.feature("测试功能 二 ")
-class Test_py:
-
-    @allure.feature("测试功能 二 1")
-    def test_demo1(self):
-        a = 2
-        b = 2
-        assert a == b
-
-    @allure.feature("测试功能 二 2")
-    def test_demo2(self):
-        a = 2
-        b = 2
-        assert a == b
+# import allure
+# @allure.feature("测试功能 二 ")
+# class Test_py:
+#
+#     @allure.feature("测试功能 二 1")
+#     def test_demo1(self):
+#         a = 2
+#         b = 2
+#         assert a == b
+#
+#     @allure.feature("测试功能 二 2")
+#     def test_demo2(self):
+#         a = 2
+#         b = 2
+#         assert a == b
