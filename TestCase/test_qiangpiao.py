@@ -2,6 +2,7 @@ import os
 import time
 
 import action as action
+import requests
 from selenium import webdriver
 from Common.baseui import baseUI
 from Common.read_excel import *
@@ -16,7 +17,7 @@ class TestMall:
         driver_path = os.path.join(os.path.dirname(__file__), "../chromedriver/chromedriver.exe")
         #打开浏览器
         # driver = webdriver.Chrome(driver_path)
-        # driver.maximize_window()  # 最大化浏览器
+        # driver.maximize_window()  # 最大化浏览器--
         # driver.set_page_load_timeout(10)  # 网页加载超时为10s
         # driver.set_script_timeout(10)  # js脚本运行超时10s
         # driver.implicitly_wait(10)  # 元素查找超时时间10s
@@ -45,6 +46,8 @@ class TestMall:
         action.reset_actions()
         action.move_by_offset(300, 40).perform()
         time.sleep(2)
+
+
 
 
         # # 定位登录并点击//button[@type="submit"]
